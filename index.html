@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  
+
+    <form>
+        <h1>Signup Form</h1>
+        <div class="inputs">
+            <!--Email-->
+            <label for="email">Email:</label>
+                <input 
+                    type="text" 
+                    id="emial" 
+                    name="email">
+            <br>
+            <!--Password-->
+            <label for="pwd">Password:</label>
+                <input 
+                    type="password" 
+                    id="pwd" 
+                    name="pwd">
+            <br>
+            <!--Github Username-->
+            <label for="uname">Username:</label>
+                <input 
+                type="text" 
+                id="uname" 
+                name="uname">
+            <br>
+            <!--Radio buttons with the following options: Enterprise, Pro, Free-->
+            <fieldset>
+                <legend>Version:</legend>
+            <label for="html">Enterprise</label>
+                <input type="radio" id="html" name="version" value="HTML">
+                
+            <label for="css">Pro</label>
+                <input type="radio" id="css" name="version" value="CSS">
+                
+            <label for="javascript">Free</label>
+                <input type="radio" id="javascript" name="version" value="JavaScript">
+            </fieldset>
+
+            <!--A checkbox with the words "Remember Me" next to it.-->
+            <br>
+            <input type="checkbox" id="rme">
+            <label for="rme">Remember Me</label>
+        </div>
+    </form>
+    </body>
+</html>
